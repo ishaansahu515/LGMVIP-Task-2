@@ -1,0 +1,63 @@
+.column {
+    width: 30%;
+    float: left;
+}
+
+.details .read-more span{
+    font-size: 18px;
+    font-weight: 700;
+    position:relative;
+    background:white;
+    justify-content:center;
+    width: 50%;
+    display: flex;
+    padding: 15px;
+    border-radius: 10px;
+}
+/* Extra CSS */
+.clearfix {
+    clear: both;
+}
+
+.column {
+    text-align: -webkit-center;
+}
+
+@media only screen and (min-width : 320px) {
+    .column {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .column {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .column {
+        width: 50%;
+        float: left;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .column {
+        width: 30%;
+        float: left;
+    }
+}
